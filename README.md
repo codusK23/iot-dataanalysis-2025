@@ -92,7 +92,7 @@ rcParams['axes.unicode_minus'] = False # 한글 사용시 마이너스 표시 �
 > pip install tensorflow==2.15.0
 ```
 
-### 첫번째 머신러닝
+### 첫 번째 머신러닝
 - 캐글 생성 데이터
     - https://www.kaggle.com/datasets/vipullrathod/fish-market
 
