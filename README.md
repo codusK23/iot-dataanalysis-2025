@@ -174,11 +174,14 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 - 무게 = a x 길이^2 + b x 길이 + c
     - 회귀선이 곡선으로 표현
 
--[노트북](./day03/mldl03_선형회귀.ipynb)
+- [노트북](./day03/mldl03_선형회귀.ipynb)
 
 #### 특성공학
 - 훈련시킬 특성이 모자랄때 기존 특성을 조합해서 새로운 특성을 만드는 과정
 - `sklearn.preprocessing.PolynomialFeatures`를 사용해서 특성을 추가
+- `하이퍼파라미터` - 머신러닝, 딥러닝에서 학습하지 않는 파라미터
+    - 사람이 직접 지정하는 값
+    - random_state, learning_rate, ...
 
 ### 로지스틱회귀
 - 선형(다항)회귀 - 특성을 입력해서 타겟값을 예측
@@ -234,7 +237,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
     - 침입탐지시스템, 악성코드분류, 화재인식...
 
 ### 확률적 경사하강법 - SGD
-- 확률적 경사 하강법(Stochastic Gradient Descent)를 사용하는 이유
+- `확률적 경사 하강법`(Stochastic Gradient Descent)를 사용하는 이유
     - 데이터가 너무 많을 때 시간절약
     - 로컬 미니마(지역 최소점) 문제 해결
     - 데이터가 계속 쌓이면, 이전 모델에 사용된 데이터 및 새 데이터 필요
