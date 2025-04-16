@@ -134,6 +134,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 
 - [노트북](./day01/mldl02_훈련테스트세트.ipynb)
 
+
 ## 2일차
 
 ### 빅데이터에 필요한 모듈
@@ -158,6 +159,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 
 - K-최근접 이웃 회귀 알고리즘 문제점 확인
 - 선형회귀 중 직선(1차 방정식)의 문제점 확인
+
 
 ## 3일차
 
@@ -279,6 +281,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 
 - [노트북](./day03/mldl02_확률적경사하강법.ipynb)
 
+
 ## 4일차
 
 ### 교차검증과 그리드 서치
@@ -329,6 +332,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 
 - [노트북](./day04/mldl02_심층신경망.ipynb)
 
+
 ## 5일차
 
 ### 합성곱신경망
@@ -366,6 +370,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 
 - [노트북](./day05/mldl02_파이토치시작.ipynb)
 
+
 ## 6일차
 
 ### 파이토치 기본학습
@@ -377,14 +382,30 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 - 파이토치로 Fashion-MNIST 실습
 - Keras CNN과 비교해서 학습할 것!
 
+    <img src="./image/ml0020.png" width="700">
+
 - [노트북](./day06/mldl02_파이토치_합성곱신경망.ipynb)
+
 
 ## 7일차
 
 ### 토이프로젝트
+- Cats and Dogs 이진분류 실습
+- 캐글에서 코딩하는 법
 
-### YOLO
+- [노트북](./day07/mldl01_Cats_and_Dogs_이진분류.ipynb)
+
+- 훈련세트로 예측결과
+
+    <img src="./image/ml0022.png" width="700">
+
+- Kaggle 참조 노트북
+
+- [노트북](./day07/zzaebok-cat-vs-dog.ipynb)
+
 
 ## 8일차
+
+### YOLO
 
 ### 코딩테스트
