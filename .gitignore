@@ -177,3 +177,5 @@ cython_debug/
 /day07/data
 /day08/images
 /day08/labels
+/runs/detect/train2
+/runs/detect/train
